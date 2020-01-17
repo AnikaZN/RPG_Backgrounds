@@ -26,6 +26,15 @@ traits = [ # Acolyte
 'I do not pay attention to the risks in a situation. Never tell me the odds.',
 'The best way to get me to do something is to tell me I cannot do it.',
 'I blow up at the slightest insult.',
+# Entertainer
+'I know a story relevant to almost every situation.',
+'Whenever I come to a new place, I collect local rumors and spread gossip.',
+'I am a hopeless romantic, always searching for that "special someone."',
+'Nobody stays angry at me or around me for long, since I can defuse any amount of tension.',
+'I love a good insult, even one directed at me.',
+'I get bitter if I am not the center of attention.',
+'I will settle for nothing less than perfection.',
+'I change my mood or my mind as quickly as I change key in a song.',
 
 ]
 
@@ -50,6 +59,13 @@ ideals = [ # Acolyte
 'I will do whatever it takes to become wealthy.',
 'I am loyal to my friends, not to any ideals, and everyone else can take a trip down the Styx for all I care.',
 'There is a spark of good in everyone.',
+# Entertainer
+'When I perform, I make the world better than it was.',
+'The stories, legends, and songs of the past must never be forgotten, for they teach us who we are.',
+'The world is in need of new ideas and bold action.',
+'I am only in it for the money and fame.',
+'All that matters are the smiles I bring to people when I perform.',
+'Art should reflect the soul; it should come from within and reveal who we really are.',
 
 ]
 
@@ -74,6 +90,13 @@ bonds = [ # Acolyte
 'I will become the greatest thief that ever lived.',
 'I am guilty of a terrible crime. I hope I can redeem myself for it.',
 'Someone I loved died because of a mistake I made. That will never happen again.',
+# Entertainer
+'My instrument is my most treasured possession, and it reminds me of someone I love.',
+'Someone stole my precious instrument, and someday I will get it back.',
+'I want to be famous, whatever it takes.',
+'I idolize a hero of the old tales and measure my deeds against them.',
+'I will do anything to prove myself superior to my hated rival.',
+'I would do anything for the other members of my old troupe.',
 
 ]
 
@@ -98,6 +121,13 @@ flaws = [ # Acolyte
 'I have a “tell” that reveals when I am lying.',
 'I turn tail and run when things look bad.',
 'An innocent person is in prison for a crime that I committed. I am okay with that.',
+# Entertainer
+'I will do anything to win fame and renown.',
+'I am a sucker for a pretty face.',
+'A scandal prevents me from ever going home again. That kind of trouble seems to follow me around.',
+'I once satirized a noble who still wants my head. It was a mistake that I will likely repeat.',
+'I have trouble keeping my true feelings hidden. My sharp tongue lands me in trouble.',
+'Despite my best efforts, I am unreliable to my friends.',
 
 ]
 
@@ -122,6 +152,18 @@ specialties = ['Blackmailer',
 'Hired Killer',
 'Pickpocket',
 'Smuggler']
+
+# Entertainer only
+routines = ['Actor',
+'Dancer',
+'Fire-eater',
+'Jester',
+'Juggler',
+'Instrumentalist',
+'Poet',
+'Singer',
+'Storyteller',
+'Tumbler']
 
 
 
@@ -150,7 +192,7 @@ class Character():
             bond = bonds[random.randint(6, 12)]
             flaw = flaws[random.randint(6, 12)]
             why =
-            return(trait, ideal, bond, flaw, why)
+            return(scam, trait, ideal, bond, flaw, why)
 
         elif self.background == "Criminal":
             specialty = specialties[random.randint(0, 8)]
@@ -159,9 +201,16 @@ class Character():
             bond = bonds[random.randint(12, 18)]
             flaw = flaws[random.randint(12, 18)]
             why =
-            return(trait, ideal, bond, flaw, why)
+            return(specialty, trait, ideal, bond, flaw, why)
 
         elif self.background == "Entertainer":
+            routine = routines[random.randint(0, 10)]
+            trait = traits[random.randint(24, 32)]
+            ideal = ideals[random.randint(18, 24)]
+            bond = bonds[random.randint(18, 24)]
+            flaw = flaws[random.randint(18, 24)]
+            why =
+            return(routine, trait, ideal, bond, flaw, why)
 
         elif self.background == "Folk Hero":
 
