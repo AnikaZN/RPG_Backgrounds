@@ -42,5 +42,23 @@ traits = [ # Acolyte
 'Thinking is for other people. I prefer action.',
 'I misuse long words in an attempt to sound smarter.',
 'I get bored easily. When am I going to get on with my destiny?',
+# Guild Artisan
+'I believe that anything worth doing is worth doing right. I cannot help it – I am a perfectionist.',
+'I am a snob who looks down on those who cannot appreciate fine art.',
+'I always want to know how things work and what makes people tick.',
+'I am full of witty aphorisms and have a proverb for every occasion.',
+'I am rude to people who lack my commitment to hard work and fair play.',
+'I like to talk at length about my profession.',
+'I do not part with my money easily and will haggle tirelessly to get the best deal possible.',
+'I am well known for my work, and I want to make sure everyone appreciates it. I am always taken aback when people have not heard of me.',
+# Hermit
+'I have been isolated for so long that i speak rarely, preferring gestures and also the occasional grunt',
+'I am utterly serene, even in the face of disaster.',
+'The leader of my community had something wise to say on every topic, and I am eager to share that wisdom.',
+'I feel tremendous empathy for all who suffer.',
+'I am oblivious to etiquette and social expectations.',
+'I connect everything that happens to me to a grand, cosmic plan.',
+'I often get lost in my own thoughts and contemplation, becoming oblivious to my surroundings.',
+'I am working on a grand philosophical theory and love sharing my ideas.',
 
 ]

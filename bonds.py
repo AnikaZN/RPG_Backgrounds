@@ -33,5 +33,19 @@ bonds = [ # Acolyte
 'My tools are symbols of my past life, and I carry them so that I will never forget my roots.',
 'I protect those who cannot protect themselves.',
 'I wish my childhood sweetheart had come with me to pursue my destiny',
+#Guild Artisan
+'The workshop where I learned my trade is the most important place in the world to me.',
+'I created a great work for someone, and then found them unworthy to receive it. I am still looking for someone worthy.',
+'I owe my guild a great debt for forging me into the person I am today.',
+'I pursue wealth to secure my love.',
+'One day I will return to my guild and prove that I am the greatest artisan of them all.',
+'I will get revenge on the evil forces that destroyed my place of business and ruined my livelihood.',
+# Hermit
+'Nothing is more important than the other members of my hermitage, order, or association.',
+'I entered seclusion to hide from the ones who might still be hunting me. I must someday confront them.',
+'I am still seeking the enlightenment I pursued in my seclusion, and it still eludes me.',
+'I entered seclusion because I loved someone I could not have.',
+'Should my discovery come to light, it could bring ruin to the world.',
+'My isolation gave me great insight into a great evil that only I can destroy.',
 
 ]

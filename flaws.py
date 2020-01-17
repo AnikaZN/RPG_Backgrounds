@@ -33,5 +33,19 @@ flaws = [ # Acolyte
 'I have a weakness for the vices of the city, especially hard drink.',
 'Secretly, I believe that things would be better if I were a tyrant lording over the land.',
 'I have trouble trusting in my allies.',
+# Guild Artisan
+'I will do anything to get my hands on something rare or priceless.',
+'I am quick to assume that someone is trying to cheat me.',
+'No one must ever learn that I once stole money from guild coffers.',
+'I am never satisfied with what I have – I always want more.',
+'I would kill to acquire a noble title.',
+'I am horribly jealous of anyone who can outshine my handiwork. Everywhere I go, I am surrounded by rivals.',
+# Hermit
+'Now that I have returned to the world, I enjoy its delights a little too much',
+'I harbor dark, bloodthirsty thoughts that my isolation and meditation failed to quell.',
+'I am dogmatic in my thoughts and philosophy.',
+'I let my need to win arguments overshadow friendships and harmony.',
+'I would risk too much to uncover a lost bit of knowledge.',
+'I like keeping secrets and will not share them with anyone.',
 
 ]

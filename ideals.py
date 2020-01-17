@@ -34,5 +34,19 @@ ideals = [
 'If I become strong, I can take what I want—what I deserve.',
 'There is no good in pretending to be something I am not.',
 'Nothing and no one can steer me away from my higher calling.',
+# Guild Artisan
+'It is the duty of all civilized people to strengthen the bonds of community and the security of civilization.',
+'My talents were given to me so that I could use them to benefit the world.',
+'Everyone should be free to pursue his or her own livelihood.',
+'I am only in it for the money.',
+'I am committed to the people I care about, not to ideals.',
+'I work hard to be the best there is at my craft.',
+# Hermit
+'My gifts are meant to be shared with all, not used for my own benefit.',
+'Emotions must not cloud our sense of what is right and true, or our logical thinking.',
+'Inquiry and curiosity are the pillars of progress.',
+'Solitude and contemplation are paths toward mystical or magical power.',
+'Meddling in the affairs of others only causes trouble.',
+'If you know yourself, there’s nothing left to know.',
 
 ]

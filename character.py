@@ -1,4 +1,5 @@
 import random
+import os
 from .traits import traits
 from .ideals import ideals
 from .bonds import bonds
@@ -46,8 +47,39 @@ events = ['I stood up to a tyrant.',
 'I trained the peasantry to use farm implements as weapons against invading soldiers.',
 'A lord rescinded an unpopular decree after I led a symbolic act of protest against it.',
 'A celestial, fey, or similar creature gave me a blessing or revealed my secret origin.',
-'I was recruited into an army, rose to eladership, and was commended for my heroism.']
+'I was recruited into an army, rose to leadership, and was commended for my heroism.']
 
+# Guild Artisan only
+guilds = ['Alchemists and apothecaries',
+'Armorers, locksmiths, and finesmiths',
+'Brewers, distillers, and vintners',
+'Calligraphers, scribes, and scriveners',
+'Carpenters, roofers, and plasterers',
+'Cartographers, surveyors, and chart-makers',
+'Cobblers and shoemakers',
+'Cooks and bakers',
+'Glassblowers and glaziers',
+'Jewelers and gemcutters',
+'Leatherworkers, skinners, and tanners',
+'Masons and stonecutters',
+'Painters, limners, and sign-makers',
+'Potters and tile-makers',
+'Shipwrights and sailmakers',
+'Smiths and metal-forgers',
+'Tinkers, pewterers, and casters',
+'Wagon-makers and wheelwrights',
+'Weavers and dyers',
+'Woodcarvers, coopers, and bowyers']
+
+# Hermit only
+reasons = ['I was searching for spiritual enlightenment.',
+'I was partaking of communal living in accordance with the dictates of a religious order.',
+'I was exiled for a crime I did not commit.',
+'I retreated from society after a life-altering event.',
+'I needed a quiet place to work on my art, literature, music, or manifesto.',
+'I needed to commune with nature, far from civilization.',
+'I was the caretaker of an ancient ruin or relic.',
+'I was a pilgrim in search of a person, place, or relic of spiritual significance.']
 
 
 class Character():
@@ -104,10 +136,23 @@ class Character():
             why =
             return(event, trait, ideal, bond, flaw, why)
 
-
         elif self.background == "Guild Artisan":
+            guild = guilds[random.randint(0, 20)]
+            trait = traits[random.randint(40, 48)]
+            ideal = ideals[random.randint(30, 36)]
+            bond = bonds[random.randint(30, 36)]
+            flaw = flaws[random.randint(30, 36)]
+            why =
+            return(guild, trait, ideal, bond, flaw, why)
 
         elif self.background == "Hermit":
+            reason = reasons[random.randint(0, 8)]
+            trait = traits[random.randint(48, 56)]
+            ideal = ideals[random.randint(36, 42)]
+            bond = bonds[random.randint(36, 42)]
+            flaw = flaws[random.randint(36, 42)]
+            why =
+            return(reason, trait, ideal, bond, flaw, why)
 
         elif self.background == "Noble":
 
