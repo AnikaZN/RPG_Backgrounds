@@ -96,5 +96,21 @@ traits = [ # Acolyte
 'I never pass up a friendly wager.',
 'My language is as foul as an otyugh nest.',
 'I like a job well done, especially if I can convince someone else to do it.',
-
-]
+# Soldier
+'I am always polite and respectful.',
+'I am haunted by memories of war. I cannot get the images of violence out of my mind.',
+'I have lost too many friends and I am slow to make a new one.',
+'I am full of inspiring and cautionary tales from my military experience which is relevant to almost every combat situation.',
+'I can stare down a hell hound without flinching.',
+'I enjoy being strong and I like breaking things.',
+'I have a crude sense of humor.',
+'I face problems head-on. A simple, direct solution is the best path to success.',
+# Urchin
+'I hide scraps of food and trinkets away in my pockets.',
+'I ask a lot of questions.',
+'I like to squeeze into small places where no one else can get to me.',
+'I sleep with my back to a wall or tree, with everything I own wrapped in a bundle in my arms.',
+'I eat like a pig and have bad manners.',
+'I think anyone who is nice to me is hiding evil intent.',
+'I do not like to bathe.',
+'I bluntly say what other people are hinting at or hiding.']

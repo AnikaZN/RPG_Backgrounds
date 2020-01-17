@@ -112,5 +112,18 @@ class Character():
             return(trait, ideal, bond, flaw, why)
 
         elif self.background == "Soldier":
+            rank = ranks[random.randint(0, 8)]
+            trait = traits[random.randint(88, 96)]
+            ideal = ideals[random.randint(66, 72)]
+            bond = bonds[random.randint(66, 72)]
+            flaw = flaws[random.randint(66, 72)]
+            why =
+            return(rank, trait, ideal, bond, flaw, why)
 
         else: # Urchin
+            trait = traits[random.randint(96, 104)]
+            ideal = ideals[random.randint(72, 78)]
+            bond = bonds[random.randint(72, 78)]
+            flaw = flaws[random.randint(72, 78)]
+            why =
+            return(trait, ideal, bond, flaw, why)

@@ -1,5 +1,4 @@
-ideals = [
-# Acolyte
+ideals = [ # Acolyte
 'The ancient traditions of worship and sacrifice must be preserved and upheld.',
 'I always try to help those in need, no matter what the personal cost.',
 'We must help bring about the changes the gods are constantly working in the world.',
@@ -76,5 +75,17 @@ ideals = [
 'I am a predator, and the other ships on the sea are my prey.',
 'I am committed to my crewmates, not to ideals.',
 'Someday I will own my own ship and chart my own destiny.',
-
-]
+# Soldier
+'Our lot is to lay down our lives in defense of others.',
+'I do what I must and obey just authority.',
+'When people follow orders blindly, they embrace a kind of tyranny.',
+'In life as in war, the stronger force wins.',
+'Ideals aren’t worth killing over or going to war for.',
+'My city, nation, or people are all that matter.',
+# Urchin
+'All people, rich or poor, deserve respect.',
+'We have to take care of each other, because no one else is going to do it.',
+'The low are lifted up, and the high and mighty are brought down. Change is the nature of things.',
+'The rich need to be shown what life and death are like in the gutters.',
+'I help the people who help me-that is what keeps us alive.',
+'I am going to prove that I am worthy of a better life.']

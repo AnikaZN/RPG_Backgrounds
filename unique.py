@@ -72,6 +72,7 @@ reasons = ['I was searching for spiritual enlightenment.',
 'I was the caretaker of an ancient ruin or relic.',
 'I was a pilgrim in search of a person, place, or relic of spiritual significance.']
 
+# Sage only
 focuses = ['Alchemist',
 'Astronomer',
 'Discredited academic',
@@ -80,3 +81,13 @@ focuses = ['Alchemist',
 'Researcher',
 'Wizarding apprentice',
 'Scribe']
+
+# Soldier only
+ranks = ['Officer',
+'Scout',
+'Infantry',
+'Cavalry',
+'Healer',
+'Quartermaster',
+'Standard bearer',
+'Support staff (cook, blacksmith, etc.)']

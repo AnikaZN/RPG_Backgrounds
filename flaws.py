@@ -75,5 +75,17 @@ flaws = [ # Acolyte
 'Once I start drinking, it is hard for me to stop.',
 'I cannot help but pocket loose coins and other trinkets I come across.',
 'My pride will probably lead to my destruction.',
-
-]
+# Soldier
+'The monstrous enemy which we faced in battle still leaves me quivering with fear.',
+'I have little respect for anyone who is not a proven warrior.',
+'I made a terrible mistake in battle that cost many lives—and I would do anything to keep that mistake secret.',
+'My hatred of my enemies is blind and unreasoning.',
+'I obey the law, even if the law causes misery.',
+'I would rather eat my armor than admit when I’m wrong.',
+# Urchin
+'If I am outnumbered, I will run away from a fight.',
+'Gold seems like a lot of money to me, and I will do just about anything for more of it.',
+'I will never fully trust anyone other than myself.',
+'I would rather kill someone in their sleep than fight fair.',
+'It is not stealing if I need it more than someone else.',
+'People who cannot take care of themselves get what they deserve.']

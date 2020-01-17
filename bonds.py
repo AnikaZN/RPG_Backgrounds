@@ -75,5 +75,17 @@ bonds = [ # Acolyte
 'In a harbor town, I have a paramour whose eyes nearly stole me from the sea.',
 'I was cheated out of my fair share of the profits, and I want to get my due.',
 'Ruthless pirates murdered my captain and crewmates, plundered our ship, and left me to die. Vengeance will be mine.',
-
-]
+# Soldier
+'I would still lay down my life for the people I served with.',
+'Someone saved my life on the battlefield. To this day, I will never leave a friend behind.',
+'My honor is my life.',
+'I will never forget the crushing defeat my company suffered or the enemies who dealt it.',
+'Those who fight beside me are those worth dying for.',
+'I fight for those who cannot fight for themselves.',
+# Urchin
+'My town or city is my home, and I will fight to defend it.',
+'I sponsor an orphanage to keep others from enduring what I was forced to endure.',
+'I owe my survival to another urchin who taught me to live on the streets.',
+'I owe a debt I can never repay to the person who took pity on me.',
+'I escaped my life of poverty by robbing an important person, and I am wanted for it.',
+'No one else should have to endure the hardships I have been through.']
