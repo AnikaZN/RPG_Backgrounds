@@ -47,5 +47,33 @@ bonds = [ # Acolyte
 'I entered seclusion because I loved someone I could not have.',
 'Should my discovery come to light, it could bring ruin to the world.',
 'My isolation gave me great insight into a great evil that only I can destroy.',
+# Noble
+'I will face any challenge to win the approval of my family.',
+'My house has an alliance with another noble family that must be sustained at all costs.',
+'Nothing is more important than the other members of my family.',
+'I am in love with the heir of a family that my family despises.',
+'My loyalty to my sovereign is unwavering.',
+'The common folk must see me as a hero of the people.',
+# Outlander
+'My family, clan, or tribe is the most important thing in my life, even when they are far from me.',
+'An injury to the unspoiled wilderness of my home is an injury to me.',
+'I will bring terrible wrath down on the evildoers who destroyed my homeland.',
+'I am the last of my tribe, and it is up to me to ensure their names enter legend.',
+'I suffer awful visions of a coming disaster and will do anything to prevent it.',
+'It is my duty to provide children to sustain my tribe.',
+# Sage
+'It is my duty to protect my students.',
+'I have an ancient text that holds terrible secrets that must not fall into the wrong hands.',
+'I work to preserve a library, university, scriptorium, or monastery.',
+'My most important work is a series of tomes related to a specific field of lore.',
+'I have been searching my whole life for the answer to a certain question.',
+'I sold my soul for knowledge. I hope to do great deeds and win it back.',
+# Sailor
+'I am loyal to my captain first, everything else second.',
+'The ship is most important – crewmates and captains come and go.',
+'I will always remember my first ship.',
+'In a harbor town, I have a paramour whose eyes nearly stole me from the sea.',
+'I was cheated out of my fair share of the profits, and I want to get my due.',
+'Ruthless pirates murdered my captain and crewmates, plundered our ship, and left me to die. Vengeance will be mine.',
 
 ]

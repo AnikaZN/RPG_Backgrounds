@@ -48,5 +48,33 @@ ideals = [
 'Solitude and contemplation are paths toward mystical or magical power.',
 'Meddling in the affairs of others only causes trouble.',
 'If you know yourself, there’s nothing left to know.',
+# Noble
+'Respect is due to me because of my position, but all people regardless of station deserve to be treated with dignity.',
+'It is my duty to respect the authority of those above me, just as those below me must respect mine.',
+'I must prove that I can handle myself without the coddling of my family.',
+'If I can attain more power, no one will tell me what to do.',
+'Blood runs thicker than water.',
+'It is my duty to protect and care for the people beneath me.',
+# Outlander
+'Life is like the seasons, in constant change, and we must change with it.',
+'It is the responsibility of each individual to make the most happiness for the whole tribe.',
+'If I dishonor myself, I dishonor my whole clan.',
+'The strongest are meant to rule.',
+'The natural world is more important than all the constructs of civilization.',
+'I must earn glory in battle, for myself and my clan.',
+# Sage
+'The path to power and self-improvement is through knowledge.',
+'What is beautiful points us beyond itself toward what is true.',
+'Emotions must not cloud our logical thinking.',
+'Nothing should fetter the infinite possibility inherent in all existence.',
+'Knowledge is the path to power and domination.',
+'The goal of a life of study is the betterment of oneself.',
+#Sailor
+'The thing that keeps a ship together is mutual respect between captain and crew.',
+'We all do the work, so we all share in the rewards.',
+'The sea is freedom-the freedom to go anywhere and do anything.',
+'I am a predator, and the other ships on the sea are my prey.',
+'I am committed to my crewmates, not to ideals.',
+'Someday I will own my own ship and chart my own destiny.',
 
 ]

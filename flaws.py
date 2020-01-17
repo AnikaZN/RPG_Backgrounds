@@ -47,5 +47,33 @@ flaws = [ # Acolyte
 'I let my need to win arguments overshadow friendships and harmony.',
 'I would risk too much to uncover a lost bit of knowledge.',
 'I like keeping secrets and will not share them with anyone.',
+# Noble
+'I secretly believe that everyone is beneath me.',
+'I hide a truly scandalous secret that could ruin my family forever.',
+'I too often hear veiled insults and threats in every word addressed to me, and I am quick to anger.',
+'I have an insatiable desire for carnal pleasures.',
+'In fact, the world does revolve around me.',
+'By my words and actions, I often bring shame to my family.',
+# Outlander
+'I am too enamored of ale, wine, and other intoxicants.',
+'There is no room for caution in a life lived to the fullest.',
+'I remember every insult I have received and nurse a silent resentment toward anyone who has ever wronged me.',
+'I am slow to trust members of other races, tribes, and societies.',
+'Violence is my answer to almost any challenge.',
+'Do not expect me to save those who cannot save themselves. It is natural that the strong thrive and the weak perish.',
+# Sage
+'I am easily distracted by the promise of information.',
+'Most people scream and run when they see a demon. I stop and take notes on its anatomy.',
+'Unlocking an ancient mystery is worth the price of a civilization.',
+'I overlook obvious solutions in favor of complicated ones.',
+'I speak without really thinking through my words, invariably insulting others.',
+'I can not keep a secret to save my life, or the lives of others.',
+# Sailor
+'I follow orders, even if I think they are wrong.',
+'I will say anything to avoid having to do extra work.',
+'Once someone questions my courage, I never back down no matter how dangerous the situation.',
+'Once I start drinking, it is hard for me to stop.',
+'I cannot help but pocket loose coins and other trinkets I come across.',
+'My pride will probably lead to my destruction.',
 
 ]
