@@ -97,10 +97,10 @@ class Character():
 
         elif self.background == "Folk Hero":
             event = events[random.randint(0, 10)]
-            trait = traits[random.randint(24, 32)]
-            ideal = ideals[random.randint(18, 24)]
-            bond = bonds[random.randint(18, 24)]
-            flaw = flaws[random.randint(18, 24)]
+            trait = traits[random.randint(32, 40)]
+            ideal = ideals[random.randint(24, 30)]
+            bond = bonds[random.randint(24, 30)]
+            flaw = flaws[random.randint(24, 30)]
             why =
             return(event, trait, ideal, bond, flaw, why)
 
