@@ -1,5 +1,5 @@
 # Charlatan only
-scams = ['I cheat at games of chance.',
+Scams = ['I cheat at games of chance.',
 'I shave coins or forge documents.',
 'I insert myself into the lives of others to prey on their weaknesses and secure their fortunes.',
 'I put on new identities like clothes.',
@@ -7,7 +7,7 @@ scams = ['I cheat at games of chance.',
 'I convince people that worthless junk is worth their hard-earned money.']
 
 # Criminal only
-specialties = ['Blackmailer',
+Specialties = ['Blackmailer',
 'Burglar',
 'Enforcer',
 'Fence',
@@ -17,7 +17,7 @@ specialties = ['Blackmailer',
 'Smuggler']
 
 # Entertainer only
-routines = ['Actor',
+Routines = ['Actor',
 'Dancer',
 'Fire-eater',
 'Jester',
@@ -29,7 +29,7 @@ routines = ['Actor',
 'Tumbler']
 
 # Folk Hero only
-events = ['I stood up to a tyrant.',
+Events = ['I stood up to a tyrant.',
 'I saved people during a natural disaster.',
 'I stood alone against a terrible monster.',
 'I stole from a corrupt merchant to help the poor.',
@@ -41,7 +41,7 @@ events = ['I stood up to a tyrant.',
 'I was recruited into an army, rose to leadership, and was commended for my heroism.']
 
 # Guild Artisan only
-guilds = ['Alchemists and apothecaries',
+Guilds = ['Alchemists and apothecaries',
 'Armorers, locksmiths, and finesmiths',
 'Brewers, distillers, and vintners',
 'Calligraphers, scribes, and scriveners',
@@ -63,7 +63,7 @@ guilds = ['Alchemists and apothecaries',
 'Woodcarvers, coopers, and bowyers']
 
 # Hermit only
-reasons = ['I was searching for spiritual enlightenment.',
+Reasons = ['I was searching for spiritual enlightenment.',
 'I was partaking of communal living in accordance with the dictates of a religious order.',
 'I was exiled for a crime I did not commit.',
 'I retreated from society after a life-altering event.',
@@ -73,7 +73,7 @@ reasons = ['I was searching for spiritual enlightenment.',
 'I was a pilgrim in search of a person, place, or relic of spiritual significance.']
 
 # Sage only
-focuses = ['Alchemist',
+Focuses = ['Alchemist',
 'Astronomer',
 'Discredited academic',
 'Librarian',
@@ -83,7 +83,7 @@ focuses = ['Alchemist',
 'Scribe']
 
 # Soldier only
-ranks = ['Officer',
+Ranks = ['Officer',
 'Scout',
 'Infantry',
 'Cavalry',

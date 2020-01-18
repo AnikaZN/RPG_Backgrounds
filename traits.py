@@ -1,4 +1,4 @@
-traits = [ # Acolyte
+Traits = [ # Acolyte
 'I idolize a particular hero of my faith, and constantly refer to their deeds and example.',
 'I can find common ground between the fiercest enemies, empathizing with them and always working towards peace.',
 'I see omens in every event and action. The gods try to speak to us, we just need to listen.',

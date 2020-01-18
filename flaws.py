@@ -1,4 +1,4 @@
-flaws = [ # Acolyte
+Flaws = [ # Acolyte
 'I judge others harshly, and myself even more severely.',
 'I put too much trust in those who would wield power within the hierarchy of my temple.',
 'My piety sometimes leads me to blindly trust those that profess faith in my god.',

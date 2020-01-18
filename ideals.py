@@ -1,4 +1,4 @@
-ideals = [ # Acolyte
+Ideals = [ # Acolyte
 'The ancient traditions of worship and sacrifice must be preserved and upheld.',
 'I always try to help those in need, no matter what the personal cost.',
 'We must help bring about the changes the gods are constantly working in the world.',

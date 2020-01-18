@@ -1,4 +1,4 @@
-bonds = [ # Acolyte
+Bonds = [ # Acolyte
 'I would die to recover an ancient relic of my faith that was lost long ago.',
 'I will someday get revenge on the corrupt temple hierarchy who branded me a heretic.',
 'I owe my life to the priest who took me in when my parents died.',
