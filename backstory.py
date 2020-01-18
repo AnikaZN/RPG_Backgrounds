@@ -8,10 +8,7 @@ from why import Motivations
 from unique import Scams, Specialties, Routines, Events, Guilds, Reasons, Focuses, Ranks
 
 class Character():
-    def __init__(self, name, age, race, background):
-        self.name = name
-        self.age = age
-        self.race = race
+    def __init__(self, ackground):
         self.background = background
 
     def personality(self):
