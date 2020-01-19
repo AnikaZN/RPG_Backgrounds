@@ -27,6 +27,8 @@ layout = html.Div([
 
     """),
 
+    html.Div(id='content', style={'fontWeight':'bold'}),
+
     html.Div([
         dcc.Markdown('###### Background'),
         dcc.Dropdown(
@@ -40,7 +42,8 @@ layout = html.Div([
 
 
 @app.callback(
-    Output('background', 'value'))
+    Output('content', 'children'),
+    [Input('background', 'value')])
 
 def backstory(background):
 
