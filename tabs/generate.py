@@ -48,4 +48,11 @@ def backstory(background):
 
     character = Character(background)
 
-    return character.personality()#, character.birthplace(), character.siblings(), character.family_lifestyle_home()
+    personality = character.personality()
+    birthplace = character.birthplace()
+    siblings = character.siblings()
+    flh = character.family_lifestyle_home()
+
+    all = personality, birthplace, siblings, flh
+
+    return all
