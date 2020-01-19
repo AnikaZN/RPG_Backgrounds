@@ -8,7 +8,7 @@ from why import Motivations
 from unique import Scams, Specialties, Routines, Events, Guilds, Reasons, Focuses, Ranks
 
 class Character():
-    def __init__(self, ackground):
+    def __init__(self, background):
         self.background = background
 
     def personality(self):
@@ -108,7 +108,7 @@ class Character():
             return(trait, ideal, bond, flaw, why)
 
         elif self.background == "Soldier":
-            rank = Ranks[random.randint(0, 8)]
+            rank = Ranks[random.randint(0, 7)]
             trait = Traits[random.randint(88, 96)]
             ideal = Ideals[random.randint(66, 72)]
             bond = Bonds[random.randint(66, 72)]

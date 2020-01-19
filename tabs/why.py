@@ -66,7 +66,7 @@ Motivations = [ # Acolyte
 'The teachings of my mentor opened my mind to new possibilities in that field of study.',
 'I was always an avid reader, and I learned much about my favorite topic on my own.',
 'I discovered an old library and pored over the texts I found there. That experience awakened a hunger for more knowledge.',
-'I impressed a wizard who told me I was squandering my talents abd should seek out an education to take advantage of my gifts.',
+'I impressed a wizard who told me I was squandering my talents and should seek out an education to take advantage of my gifts.',
 'One of my parents or a relative gave me a basic education that whetted my appetite, and I left home to build on what I had learned.',
 # Sailor
 'I was press-ganged by pirates and forced to serve on their ship until I finally escaped.',
