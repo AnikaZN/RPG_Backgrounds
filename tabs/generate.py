@@ -5,7 +5,7 @@ import dash_html_components as html
 from joblib import load
 
 from app import app
-from backstory import Character
+from .backstory import Character
 from traits import Traits
 from ideals import Ideals
 from bonds import Bonds
