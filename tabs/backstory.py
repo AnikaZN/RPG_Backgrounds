@@ -27,7 +27,7 @@ class Character():
             bond = Bonds[random.randint(6, 11)]
             flaw = Flaws[random.randint(6, 11)]
             why = Motivations[random.randint(6, 11)]
-            return('My favorite scame is ', scam, ' ', trait, ' ', ideal, ' ', bond, ' ', flaw, ' ', why)
+            return('My favorite scam is ', scam, ' ', trait, ' ', ideal, ' ', bond, ' ', flaw, ' ', why)
 
         elif self.background == "Criminal":
             specialty = Specialties[random.randint(0, 7)]
