@@ -47,21 +47,21 @@ layout = html.Div([
 
 
 @app.callback(
-    Output('birthplace', 'children'),
-    Output('siblings', 'children'),
-    Output('flh', 'children'),
-    Output('personality', 'children'),
+    [Output('birthplace', 'children'),
+     Output('siblings', 'children'),
+     Output('flh', 'children'),
+     Output('personality', 'children')],
     [Input('background', 'value')])
 
 def backstory(background):
 
     character = Character(background)
 
-    personality = character.personality()
     birthplace = character.birthplace()
     siblings = character.siblings()
     flh = character.family_lifestyle_home()
+    personality = character.personality()
 
-    all = personality, birthplace, siblings, flh
+    all = birthplace, siblings, flh, personality
 
     return all
