@@ -188,7 +188,7 @@ class Character():
             number = (random.randint(1, 8)) + 3
 
         if number == 0:
-            return number
+            return "I do not have any siblings."
         else:
             roll2 = random.randint(1, 6) + random.randint(1, 6)
             if roll2 == 2:
