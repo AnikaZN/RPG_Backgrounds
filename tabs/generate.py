@@ -26,7 +26,13 @@ layout = html.Div([
         Use the controls below to generate a personality based on your character's background. The rest of your character's backstory will also be generated.
     """),
 
-    html.Div(id='content', style={'fontWeight':'bold'}),
+    html.Div(id='birthplace', style={'fontWeight':'bold'}),
+
+    html.Div(id='siblings', style={'fontWeight':'bold'}),
+
+    html.Div(id='flh', style={'fontWeight':'bold'}),
+
+    html.Div(id='personality', style={'fontWeight':'bold'}),
 
     html.Div([
         dcc.Markdown('###### Background'),
@@ -41,7 +47,10 @@ layout = html.Div([
 
 
 @app.callback(
-    Output('content', 'children'),
+    Output('birthplace', 'children'),
+    Output('siblings', 'children'),
+    Output('flh', 'children'),
+    Output('personality', 'children'),
     [Input('background', 'value')])
 
 def backstory(background):
