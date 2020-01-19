@@ -1,11 +1,11 @@
 import random
 import os
-from traits import Traits
-from ideals import Ideals
-from bonds import Bonds
-from flaws import Flaws
-from why import Motivations
-from unique import Scams, Specialties, Routines, Events, Guilds, Reasons, Focuses, Ranks
+from .traits import Traits
+from .ideals import Ideals
+from .bonds import Bonds
+from .flaws import Flaws
+from .why import Motivations
+from .unique import Scams, Specialties, Routines, Events, Guilds, Reasons, Focuses, Ranks
 
 class Character():
     def __init__(self, background):
