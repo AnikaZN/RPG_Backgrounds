@@ -6,12 +6,12 @@ from joblib import load
 
 from app import app
 from .backstory import Character
-from traits import Traits
-from ideals import Ideals
-from bonds import Bonds
-from flaws import Flaws
-from why import Motivations
-from unique import Scams, Specialties, Routines, Events, Guilds, Reasons, Focuses, Ranks
+from .traits import Traits
+from .ideals import Ideals
+from .bonds import Bonds
+from .flaws import Flaws
+from .why import Motivations
+from .unique import Scams, Specialties, Routines, Events, Guilds, Reasons, Focuses, Ranks
 
 backgrounds = ['Acolyte', 'Charlatan', 'Criminal', 'Entertainer', 'Folk Hero',
 'Guild Artisan', 'Hermit', 'Noble', 'Outlander', 'Sage', 'Sailor', 'Soldier',
