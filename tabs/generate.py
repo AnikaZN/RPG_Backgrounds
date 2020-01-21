@@ -42,13 +42,12 @@ layout = html.Div([
             min=0,
             max=80,
             step=1,
-            value=10, 
+            value=10,
             marks={n: str(n) for n in range(0, 90, 10)}
         )
     ], style=style),
 
-
-    html.Div(id='birthplace', style={'fontWeight':'bold'}),
+    html.Div(id='birthplace', style={'margin-top': 10px; 'fontWeight':'bold'}),
 
     html.Div(id='siblings', style={'fontWeight':'bold'}),
 
