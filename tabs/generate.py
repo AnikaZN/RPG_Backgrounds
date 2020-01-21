@@ -35,6 +35,19 @@ layout = html.Div([
         ),
     ], style=style),
 
+    html.Div([
+        dcc.Markdown('###### Age'),
+        dcc.Slider(
+            id='age',
+            min=0,
+            max=80,
+            step=1,
+            value=10, 
+            marks={n: str(n) for n in range(0, 90, 10)}
+        )
+    ], style=style),
+
+
     html.Div(id='birthplace', style={'fontWeight':'bold'}),
 
     html.Div(id='siblings', style={'fontWeight':'bold'}),
