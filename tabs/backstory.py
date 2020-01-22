@@ -6,6 +6,7 @@ from .bonds import Bonds
 from .flaws import Flaws
 from .why import Motivations
 from .unique import Scams, Specialties, Routines, Events, Guilds, Reasons, Focuses, Ranks
+from .events import Core, Adventures, Arcane, Boons, Crime, Punishment, Supernatural, Tragedies, War, Weird
 
 class Character():
     def __init__(self, background, age):
@@ -273,6 +274,7 @@ class Character():
 
         return family, ' ', lifestyle, ' ', home
 
+'''Generate life events based on age'''
     def life_events(self):
         if self.age <= 20:
             count = 1
@@ -289,5 +291,5 @@ class Character():
 
         list = [random.randint(1, 100) for _ in range(count)]
         for item in list:
-            # return result from life events table pg. 69
+            # return unique results from life events table pg. 69
             pass
