@@ -8,8 +8,9 @@ from .why import Motivations
 from .unique import Scams, Specialties, Routines, Events, Guilds, Reasons, Focuses, Ranks
 
 class Character():
-    def __init__(self, background):
+    def __init__(self, background, age):
         self.background = background
+        self.age = age
 
 '''Select a trait, ideal, bond, flaw, and why based on background'''
     def personality(self):
@@ -271,3 +272,22 @@ class Character():
             home = "I grew up in a palace or castle."
 
         return family, ' ', lifestyle, ' ', home
+
+    def life_events(self):
+        if self.age <= 20:
+            count = 1
+        elif 21 <= self.age <= 30:
+            count = random.randint(1, 4)
+        elif 31 <= self.age <= 40:
+            count = random.randint(1, 6)
+        elif 41 <= self.age <= 50:
+            count = random.randint(1, 8)
+        elif 51 <= self.age <= 60:
+            count = random.randint(1, 10)
+        else:
+            count = random.randint(1, 12)
+
+        list = [random.randint(1, 100) for _ in range(count)]
+        for item in list:
+            # return result from life events table pg. 69
+            pass
