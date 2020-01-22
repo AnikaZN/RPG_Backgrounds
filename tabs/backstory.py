@@ -11,6 +11,7 @@ class Character():
     def __init__(self, background):
         self.background = background
 
+'''Select a trait, ideal, bond, flaw, and why based on background'''
     def personality(self):
         if self.background == "Acolyte":
             trait = Traits[random.randint(0, 7)]
@@ -124,6 +125,7 @@ class Character():
             why = Motivations[random.randint(72, 77)]
             return(trait, ' ', ideal, ' ', bond, ' ', flaw, ' ', why)
 
+'''d100 generator for birthplace'''
     def birthplace(self):
         born = random.randint(0, 99)
         if born < 50:
@@ -173,6 +175,7 @@ class Character():
         else:
             return "I was born on one of the Outer Planes."
 
+'''Generate sibling profile'''
     def siblings(self):
         roll = random.randint(1, 10)
 
@@ -198,6 +201,7 @@ class Character():
             else:
                 return f"I am the youngest, with {number} sibling(s)."
 
+'''Generate family, lifestyle, and home'''
     def family_lifestyle_home(self):
         roll_f = random.randint(1, 100)
         roll_l = random.randint(1, 6) + random.randint(1, 6) + random.randint(1, 6)
