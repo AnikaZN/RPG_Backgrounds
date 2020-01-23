@@ -290,30 +290,48 @@ class Character():
             count = random.randint(1, 12)
 
         list = [random.randint(1, 100) for _ in range(count)]
-        for item in list:
+
+        events = []
+
+        for item in roll:
             if 1 <= item <= 10:
-                return Core[0]
+                result = Core[0]
+                events.append(result)
             elif 11 <= item <= 20:
-                return Core[1]
+                result = Core[1]
+                events.append(result)
             elif 21 <= item <= 30:
-                return Core[2]
+                result = Core[2]
+                events.append(result)
             elif 31 <= item <= 40:
-                return Core[3]
+                result = Core[3]
+                events.append(result)
             elif 41 <= item <= 50:
-                return Core[4]
+                result = Core[4]
+                events.append(result)
             elif 51 <= item <= 70:
-                return Core[5]
+                result = Core[5]
+                events.append(result)
             elif 71 <= item <= 75:
-                return Core[6]
+                result = Core[6]
+                events.append(result)
             elif 76 <= item <= 80:
-                return Core[7]
+                result = Core[7]
+                events.append(result)
             elif 81 <= item <= 85:
-                return Core[8]
+                result = Core[8]
+                events.append(result)
             elif 86 <= item <= 90:
-                return Core[9]
+                result = Core[9]
+                events.append(result)
             elif 91 <= item <= 95:
-                return Core[10]
+                result = Core[10]
+                events.append(result)
             elif 96 <= item <= 99:
-                return Core [11]
+                result = Core[11]
+                events.append(result)
             else:
-                return Core[12]
+                result = Core[12]
+                events.append(result)
+
+        return roll, events
