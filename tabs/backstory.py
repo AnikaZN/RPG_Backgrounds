@@ -291,5 +291,29 @@ class Character():
 
         list = [random.randint(1, 100) for _ in range(count)]
         for item in list:
-            # return unique results from life events table pg. 69
-            pass
+            if 1 <= item <= 10:
+                return Core[0]
+            elif 11 <= item <= 20:
+                return Core[1]
+            elif 21 <= item <= 30:
+                return Core[2]
+            elif 31 <= item <= 40:
+                return Core[3]
+            elif 41 <= item <= 50:
+                return Core[4]
+            elif 51 <= item <= 70:
+                return Core[5]
+            elif 71 <= item <= 75:
+                return Core[6]
+            elif 76 <= item <= 80:
+                return Core[7]
+            elif 81 <= item <= 85:
+                return Core[8]
+            elif 86 <= item <= 90:
+                return Core[9]
+            elif 91 <= item <= 95:
+                return Core[10]
+            elif 96 <= item <= 99:
+                return Core [11]
+            else:
+                return Core[12]
