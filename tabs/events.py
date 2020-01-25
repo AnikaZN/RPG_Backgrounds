@@ -18,9 +18,28 @@ Adventures = []
 
 Arcane = []
 
-Boons = []
+Boons = [
+"A friendly wizard gave you a spell scroll containing one cantrip.",
+"You saved the life of a commoner who now owes you a life debt. They accompany you on your travels and performs mundane tasks for you, but will leave if neglected, abused, or imperiled.",
+"You found a riding horse.",
+"You found some money. Gain 1d20 GP.",
+"A relative bequeathed you a simple weapon.",
+"You found something interesting - gain one additional trinket.",
+"The next time you visit a temple that you once provided a service for, you can be healed up to you HP maximum.",
+"A friendly alchemist gifted you with a potion of healing or a flask of acid.",
+"You found a treasure map.",
+"A distant relative left you a stipend that enables you to live comfortably for 1d20 years."
+]
 
-Crime = []
+Crime = [
+'Murder',
+'Theft',
+'Burglary',
+'Assault',
+'Smuggling',
+'Kidnapping',
+'Extortion',
+'Counterfeiting']
 
 Punishment = []
 
