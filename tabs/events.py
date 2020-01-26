@@ -14,9 +14,31 @@ Core = [
 "Something truly strange happened to you."
 ]
 
-Adventures = []
+Adventures = [
+"You nearly died. You have nasty scars on your body, and you are missing an ear, finger(s), or toe(s).",
+"You suffered a grievous injury. Although the wound healed, it still pains you from time to time.",
+"You were wounded, but in time you fully recovered.",
+"You contracted a disease while exploring a filthy warren. You recovered, but you have a lasting mark.",
+"You were poisoned by a trap or a monster. You recovered, but saving throws against poison are with disadvantage.",
+"You lost something of sentimental value to you during your adventure.",
+"You were terribly frightened by something you encountered and ran away, abandoning your companions to their fate.",
+"You learned a great deal on your adventure. Pick one skill with which you will have advantage when you roll.",
+"You found some treasure on your adventure. Gain 2d6 GP.",
+"You found a considerable amount of treasure. Gain 1d20 + 50 GP."
+]
 
-Arcane = []
+Arcane = [
+"You were charmed or frightened by a spell.",
+"You were injured or scarred by the effect of a spell.",
+"You witnessed a powerful spell being cast.",
+"You drank a potion.",
+"You found a spell scroll and succeeded in casting it.",
+"You were affected by teleportation magic.",
+"You turned invisible for a time.",
+"You identified an illusion for what it was.",
+"You saw a creature being conjured by magic.",
+"Your fortune was read by a diviner."
+]
 
 Boons = [
 "A friendly wizard gave you a spell scroll containing one cantrip.",
@@ -41,9 +63,16 @@ Crime = [
 'Extortion',
 'Counterfeiting']
 
-Punishment = []
+Punishment = [
+"You did not commit the crime and were exonerated.",
+"You committed the crime, but the authorities found you not guilty.",
+"You were nearly caught in the act. You ad to flee and are now wanted.",
+"You were caught and convicted. You served time for 1d4 years."
+]
 
-Supernatural = []
+Supernatural = [
+
+]
 
 Tragedies = []
 
