@@ -10,7 +10,7 @@ style = {'maxWidth': '960px', 'margin': 'auto'}
 app.layout = html.Div([
     dcc.Markdown('# D&D Backstory Generator'),
     dcc.Tabs(id='tabs', value='tab-generate', children=[
-        dcc.Tab(label='Generate', value='tab-generate')
+        dcc.Tab(label='Home', value='tab-generate')
     ]),
     html.Div(id='tabs-content'),
 ], style=style)

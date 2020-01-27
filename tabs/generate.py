@@ -53,7 +53,9 @@ layout = html.Div([
 
     html.Div(id='flh', style={'fontWeight':'bold'}),
 
-    html.Div(id='personality', style={'fontWeight':'bold'})
+    html.Div(id='personality', style={'fontWeight':'bold'}),
+
+    html.Div(id='events', style={'fontWeight':'bold'})
 
 ])
 
@@ -63,7 +65,8 @@ layout = html.Div([
      Output('siblings', 'children'),
      Output('flh', 'children'),
      Output('personality', 'children')],
-    [Input('background', 'value')])
+    [Input('background', 'value'),
+     Input('age', 'value')])
 
 def backstory(background):
 
@@ -73,6 +76,7 @@ def backstory(background):
     siblings = character.siblings()
     flh = character.family_lifestyle_home()
     personality = character.personality()
+    events = character.life_events()
 
     all = birthplace, siblings, flh, personality
 
