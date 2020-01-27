@@ -58,11 +58,11 @@ layout = html.Div([
     html.Div(id='events', style={'fontWeight':'bold'})
 
 ])
-
+# Output('birthplace', 'children'),
+#  Output('siblings', 'children'),
 
 @app.callback(
-    [Output('birthplace', 'children'),
-     Output('siblings', 'children'),
+    [
      Output('flh', 'children'),
      Output('personality', 'children'),
      Output('events', 'children')],
@@ -73,12 +73,12 @@ def backstory(background, age):
 
     character = Character(background, age)
 
-    birthplace = "Birthplace: ", character.birthplace()
-    siblings = "Sibilngs: ", character.siblings()
+    #birthplace = "Birthplace: ", character.birthplace()
+    #siblings = "Sibilngs: ", character.siblings()
     flh = "Lifestyle: ", character.family_lifestyle_home()
     personality = "Personality: ", character.personality()
     events = "Life Events: ", character.life_events()
 
-    all = birthplace, siblings, flh, personality, events
+    all = flh, personality, events
 
     return all
