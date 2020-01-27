@@ -31,7 +31,7 @@ layout = html.Div([
         dcc.Dropdown(
             id='background',
             options=[{'label': background, 'value': background} for background in backgrounds],
-            value="None"
+            value=backgrounds[0]
         ),
     ], style=style),
 

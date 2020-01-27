@@ -131,7 +131,7 @@ class Character():
         if born < 50:
             return "I was born at home."
         elif 50 <= born <= 54:
-            return "I was born in the home of a fmaily friend."
+            return "I was born in the home of a family friend."
         elif 55 <= born <= 62:
             return "I was born in the home of a healer or midwife."
         elif 63 <= born <= 64:
