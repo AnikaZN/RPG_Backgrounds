@@ -79,6 +79,6 @@ def backstory(background, age):
     personality = "Personality: ", character.personality()
     events = "Life Events: ", character.life_events()
 
-    all = flh, personality, events
+    all = birthplace, siblings, flh, personality, events
 
     return all
