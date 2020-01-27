@@ -288,7 +288,7 @@ class Character():
 
         events = []
 
-        for item in roll:
+        for item in list:
             if 1 <= item <= 10:
                 result = Core[0], Tragedies[random.randint(0, 10)]
                 events.append(result)
