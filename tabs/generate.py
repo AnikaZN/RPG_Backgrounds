@@ -64,7 +64,8 @@ layout = html.Div([
     [Output('birthplace', 'children'),
      Output('siblings', 'children'),
      Output('flh', 'children'),
-     Output('personality', 'children')],
+     Output('personality', 'children'),
+     Output('events', 'children')],
     [Input('background', 'value'),
      Input('age', 'value')])
 
