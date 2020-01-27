@@ -68,9 +68,9 @@ layout = html.Div([
     [Input('background', 'value'),
      Input('age', 'value')])
 
-def backstory(background):
+def backstory(background, age):
 
-    character = Character(background)
+    character = Character(background, age)
 
     birthplace = character.birthplace()
     siblings = character.siblings()
@@ -78,6 +78,6 @@ def backstory(background):
     personality = character.personality()
     events = character.life_events()
 
-    all = birthplace, siblings, flh, personality
+    all = birthplace, siblings, flh, personality, events
 
     return all
