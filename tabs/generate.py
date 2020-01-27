@@ -73,11 +73,11 @@ def backstory(background, age):
 
     character = Character(background, age)
 
-    birthplace = "Birthplace:", character.birthplace()
-    siblings = "Sibilngs:", character.siblings()
-    flh = "Lifestyle:", character.family_lifestyle_home()
-    personality = "Personality:", character.personality()
-    events = "Life Events:", character.life_events()
+    birthplace = "Birthplace: ", character.birthplace()
+    siblings = "Sibilngs: ", character.siblings()
+    flh = "Lifestyle: ", character.family_lifestyle_home()
+    personality = "Personality: ", character.personality()
+    events = "Life Events: ", character.life_events()
 
     all = birthplace, siblings, flh, personality, events
 
