@@ -3,7 +3,7 @@ import dash_core_components as dcc
 import dash_html_components as html
 
 from app import app, server
-from tabs import generate
+from tabs import generate, generate2
 
 style = {'maxWidth': '960px', 'margin': 'auto'}
 
