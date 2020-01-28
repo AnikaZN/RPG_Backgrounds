@@ -5,7 +5,7 @@ import dash_html_components as html
 from joblib import load
 
 from app import app
-from .backstory import Character
+from .classes import Personality
 from .traits import Traits
 from .ideals import Ideals
 from .bonds import Bonds
@@ -53,9 +53,9 @@ layout = html.Div([
      Output('personality', 'children')],
      [Input('background', 'value')])
 
-def personality(background, age):
+def personality(background):
 
-    character = Character(background, age)
+    character = Character(background)
 
     birthplace = "Birthplace: ", character.birthplace()
     siblings = "SiblIngs: ", character.siblings()
