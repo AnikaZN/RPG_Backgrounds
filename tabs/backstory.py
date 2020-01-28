@@ -29,7 +29,7 @@ layout = html.Div([
             min=0,
             max=80,
             step=1,
-            value=30,
+            value="None",
             marks={n: str(n) for n in range(0, 85, 5)}
         )
     ], style=style),
