@@ -118,11 +118,11 @@ class Personality():
             return('My rank is ', rank, ' ', trait, ' ', ideal, ' ', bond, ' ', flaw, ' ', why)
 
         else: # Urchin
-            trait = Traits[random.randint(96, 103)]
-            ideal = Ideals[random.randint(72, 77)]
-            bond = Bonds[random.randint(72, 77)]
-            flaw = Flaws[random.randint(72, 77)]
-            why = Motivations[random.randint(72, 77)]
+            trait = Traits[random.randint(96, 102)]
+            ideal = Ideals[random.randint(72, 76)]
+            bond = Bonds[random.randint(72, 76)]
+            flaw = Flaws[random.randint(72, 76)]
+            why = Motivations[random.randint(72, 76)]
             return(trait, ' ', ideal, ' ', bond, ' ', flaw, ' ', why)
 
     def birthplace(self):
