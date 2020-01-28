@@ -66,7 +66,7 @@ Crime = [
 Punishment = [
 "You did not commit the crime and were exonerated.",
 "You committed the crime, but the authorities found you not guilty.",
-"You were nearly caught in the act. You ad to flee and are now wanted.",
+"You were nearly caught in the act. You had to flee and are now wanted.",
 "You were caught and convicted. You served time for 1d4 years."
 ]
 

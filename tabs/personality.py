@@ -58,7 +58,7 @@ def personality(background):
     character = Personality(background)
 
     birthplace = "Birthplace: ", character.birthplace()
-    siblings = "SiblIngs: ", character.siblings()
+    siblings = "Siblings: ", character.siblings()
     flh = "Lifestyle: ", character.family_lifestyle_home()
     personality = "Personality: ", character.personality()
 
