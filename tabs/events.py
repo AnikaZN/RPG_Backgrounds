@@ -54,14 +54,14 @@ Boons = [
 ]
 
 Crime = [
-'Murder',
-'Theft',
-'Burglary',
-'Assault',
-'Smuggling',
-'Kidnapping',
-'Extortion',
-'Counterfeiting']
+'Murder - ',
+'Theft - ',
+'Burglary - ',
+'Assault - ',
+'Smuggling - ',
+'Kidnapping - ',
+'Extortion - ',
+'Counterfeiting - ']
 
 Punishment = [
 "You did not commit the crime and were exonerated.",
