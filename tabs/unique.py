@@ -7,26 +7,26 @@ Scams = ['I cheat at games of chance.',
 'I convince people that worthless junk is worth their hard-earned money.']
 
 # Criminal only
-Specialties = ['Blackmailer',
-'Burglar',
-'Enforcer',
-'Fence',
-'Highway Robber',
-'Hired Killer',
-'Pickpocket',
-'Smuggler']
+Specialties = ['Blackmailer.',
+'Burglar.',
+'Enforcer.',
+'Fence.',
+'Highway Robber.',
+'Hired Killer.',
+'Pickpocket.',
+'Smuggler.']
 
 # Entertainer only
-Routines = ['Actor',
-'Dancer',
-'Fire-eater',
-'Jester',
-'Juggler',
-'Instrumentalist',
-'Poet',
-'Singer',
-'Storyteller',
-'Tumbler']
+Routines = ['Actor.',
+'Dancer.',
+'Fire-eater.',
+'Jester.',
+'Juggler.',
+'Instrumentalist.',
+'Poet.',
+'Singer.',
+'Storyteller.',
+'Tumbler.']
 
 # Folk Hero only
 Events = ['I stood up to a tyrant.',

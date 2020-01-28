@@ -46,7 +46,7 @@ class Personality():
             bond = Bonds[random.randint(18, 23)]
             flaw = Flaws[random.randint(18, 23)]
             why = Motivations[random.randint(18, 23)]
-            return('I am mainly a ' + routine + ' ' + trait + ' ' + ideal + ' ' + bond + ' ' + flaw + ' ' + why)
+            return('I am mainly a(n) ' + routine + ' ' + trait + ' ' + ideal + ' ' + bond + ' ' + flaw + ' ' + why)
 
         elif self.background == "Folk Hero":
             event = Events[random.randint(0, 9)]
@@ -98,7 +98,7 @@ class Personality():
             bond = Bonds[random.randint(54, 59)]
             flaw = Flaws[random.randint(54, 59)]
             why = Motivations[random.randint(54, 59)]
-            return('My focus is as a ' + focus + ' ' + trait + ' ' + ideal + ' ' + bond + ' ' + flaw + ' ' + why)
+            return('My focus is as a(n) ' + focus + ' ' + trait + ' ' + ideal + ' ' + bond + ' ' + flaw + ' ' + why)
 
         elif self.background == "Sailor":
             trait = Traits[random.randint(80, 87)]
