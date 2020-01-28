@@ -49,6 +49,4 @@ def backstory(age):
 
     events = "Life Events: ", character.life_events()
 
-    all = events
-
-    return all
+    return events
