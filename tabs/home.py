@@ -20,4 +20,4 @@ As always, work with your DM/GM to incorporate these elements more fully into yo
 and have fun!
 """),
 
-html.Img(src='dice-unsplash.jpg', style={'width':'100%'})]
+html.Img(src='/assets/dice-unsplash.jpg', style={'width':'100%'})]
