@@ -9,7 +9,8 @@ style = {'maxWidth': '960px', 'margin': 'auto'}
 
 app.layout = html.Div([
     dcc.Markdown('# D&D Backstory Generator'),
-    dcc.Tabs(id='tabs', value='tab-personality', children=[
+    dcc.Tabs(id='tabs', value='tab-home', children=[
+        dcc.Tab(label='Home', value='tab-home'),
         dcc.Tab(label='Personality', value='tab-personality'),
         dcc.Tab(label='Backstory', value='tab-backstory')
     ]),
@@ -19,6 +20,7 @@ app.layout = html.Div([
 @app.callback(Output('tabs-content', 'children'),
               [Input('tabs', 'value')])
 def render_content(tab):
+    if tab == 'tab-home': return home.layout
     if tab == 'tab-personality': return personality.layout
     if tab == 'tab-backstory': return backstory.layout
 
