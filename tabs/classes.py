@@ -37,7 +37,7 @@ class Personality():
             bond = Bonds[random.randint(12, 17)]
             flaw = Flaws[random.randint(12, 17)]
             why = Motivations[random.randint(12, 17)]
-            return('My speciality is ' + specialty + ' ' +  trait + ' ' + ideal + ' ' + bond + ' ' + flaw + ' ' + why
+            return('My speciality is ' + specialty + ' ' +  trait + ' ' + ideal + ' ' + bond + ' ' + flaw + ' ' + why)
 
         elif self.background == "Entertainer":
             routine = Routines[random.randint(0, 9)]
