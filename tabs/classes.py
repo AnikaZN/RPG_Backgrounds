@@ -19,7 +19,7 @@ class Personality():
             bond = Bonds[random.randint(0, 5)]
             flaw = Flaws[random.randint(0, 5)]
             why = Motivations[random.randint(0, 5)]
-            return(trait, ' ', ideal, ' ', bond, ' ', flaw, ' ', why)
+            return(trait + ' ' + ideal + ' ' + bond + ' ' + flaw + ' ' + why)
 
         elif self.background == "Charlatan":
             scam = Scams[random.randint(0, 5)]
@@ -28,7 +28,7 @@ class Personality():
             bond = Bonds[random.randint(6, 11)]
             flaw = Flaws[random.randint(6, 11)]
             why = Motivations[random.randint(6, 11)]
-            return('My favorite scam is ', scam, ' ', trait, ' ', ideal, ' ', bond, ' ', flaw, ' ', why)
+            return('My favorite scam is ' + scam + ' ' + trait + ' ' + ideal + ' ' + bond + ' ' + flaw + ' ' + why)
 
         elif self.background == "Criminal":
             specialty = Specialties[random.randint(0, 7)]
@@ -37,7 +37,7 @@ class Personality():
             bond = Bonds[random.randint(12, 17)]
             flaw = Flaws[random.randint(12, 17)]
             why = Motivations[random.randint(12, 17)]
-            return('My speciality is ', specialty, ' ',  trait, ' ', ideal, ' ', bond, ' ', flaw, ' ', why)
+            return('My speciality is ' + specialty + ' ' +  trait + ' ' + ideal + ' ' + bond + ' ' + flaw + ' ' + why
 
         elif self.background == "Entertainer":
             routine = Routines[random.randint(0, 9)]
@@ -46,7 +46,7 @@ class Personality():
             bond = Bonds[random.randint(18, 23)]
             flaw = Flaws[random.randint(18, 23)]
             why = Motivations[random.randint(18, 23)]
-            return('I am mainly a ', routine, ' ', trait, ' ', ideal, ' ', bond, ' ', flaw, ' ', why)
+            return('I am mainly a ' + routine + ' ' + trait + ' ' + ideal + ' ' + bond + ' ' + flaw + ' ' + why)
 
         elif self.background == "Folk Hero":
             event = Events[random.randint(0, 9)]
@@ -55,7 +55,7 @@ class Personality():
             bond = Bonds[random.randint(24, 29)]
             flaw = Flaws[random.randint(24, 29)]
             why = Motivations[random.randint(24, 29)]
-            return(event, ' ', trait, ' ', ideal, ' ', bond, ' ', flaw, ' ', why)
+            return(event + ' ' + trait + ' ' + ideal + ' ' + bond + ' ' + flaw + ' ' + why)
 
         elif self.background == "Guild Artisan":
             guild = Guilds[random.randint(0, 19)]
@@ -64,7 +64,7 @@ class Personality():
             bond = Bonds[random.randint(30, 35)]
             flaw = Flaws[random.randint(30, 35)]
             why = Motivations[random.randint(30, 35)]
-            return('I belong to the guild of ', guild, ' ', trait, ' ', ideal, ' ', bond, ' ', flaw, ' ', why)
+            return('I belong to the guild of ' + guild + ' ' + trait + ' ' + ideal + ' ' + bond + ' ' + flaw + ' ' + why)
 
         elif self.background == "Hermit":
             reason = Reasons[random.randint(0, 7)]
@@ -73,7 +73,7 @@ class Personality():
             bond = Bonds[random.randint(36, 41)]
             flaw = Flaws[random.randint(36, 41)]
             why = Motivations[random.randint(36, 41)]
-            return(reason, ' ', trait, ' ', ideal, ' ', bond, ' ', flaw, ' ', why)
+            return(reason + ' ' + trait + ' ' + ideal + ' ' + bond + ' ' + flaw + ' ' + why)
 
         elif self.background == "Noble":
             trait = Traits[random.randint(56, 63)]
@@ -81,7 +81,7 @@ class Personality():
             bond = Bonds[random.randint(42, 47)]
             flaw = Flaws[random.randint(42, 47)]
             why = Motivations[random.randint(42, 47)]
-            return(trait, ' ', ideal, ' ', bond, ' ', flaw, ' ', why)
+            return(trait + ' ' + ideal + ' ' + bond + ' ' + flaw + ' ' + why)
 
         elif self.background == "Outlander":
             trait = Traits[random.randint(64, 71)]
@@ -89,7 +89,7 @@ class Personality():
             bond = Bonds[random.randint(48, 53)]
             flaw = Flaws[random.randint(48, 53)]
             why = Motivations[random.randint(48, 53)]
-            return(trait, ' ', ideal, ' ', bond, ' ', flaw, ' ', why)
+            return(trait + ' ' + ideal + ' ' + bond + ' ' + flaw + ' ' + why)
 
         elif self.background == "Sage":
             focus = Focuses[random.randint(0, 7)]
@@ -98,7 +98,7 @@ class Personality():
             bond = Bonds[random.randint(54, 59)]
             flaw = Flaws[random.randint(54, 59)]
             why = Motivations[random.randint(54, 59)]
-            return('My focus is as a ', focus, ' ', trait, ' ', ideal, ' ', bond, ' ', flaw, ' ', why)
+            return('My focus is as a ' + focus + ' ' + trait + ' ' + ideal + ' ' + bond + ' ' + flaw + ' ' + why)
 
         elif self.background == "Sailor":
             trait = Traits[random.randint(80, 87)]
@@ -106,7 +106,7 @@ class Personality():
             bond = Bonds[random.randint(60, 65)]
             flaw = Flaws[random.randint(60, 65)]
             why = Motivations[random.randint(60, 65)]
-            return(trait, ' ', ideal, ' ', bond, ' ', flaw, ' ', why)
+            return(trait + ' ' + ideal + ' ' + bond + ' ' + flaw + ' ' + why)
 
         elif self.background == "Soldier":
             rank = Ranks[random.randint(0, 7)]
@@ -115,7 +115,7 @@ class Personality():
             bond = Bonds[random.randint(66, 71)]
             flaw = Flaws[random.randint(66, 71)]
             why = Motivations[random.randint(66, 71)]
-            return('My rank is ', rank, ' ', trait, ' ', ideal, ' ', bond, ' ', flaw, ' ', why)
+            return('My rank is ' + rank + ' ' + trait + ' ' + ideal + ' ' + bond + ' ' + flaw + ' ' + why)
 
         else: # Urchin
             trait = Traits[random.randint(96, 102)]
@@ -123,7 +123,7 @@ class Personality():
             bond = Bonds[random.randint(72, 76)]
             flaw = Flaws[random.randint(72, 76)]
             why = Motivations[random.randint(72, 76)]
-            return(trait, ' ', ideal, ' ', bond, ' ', flaw, ' ', why)
+            return(trait + ' ' + ideal + ' ' + bond + ' ' + flaw + ' ' + why)
 
     def birthplace(self):
         born = random.randint(0, 99)
@@ -267,7 +267,7 @@ class Personality():
         else:
             home = "I grew up in a palace or castle."
 
-        return family, ' ', lifestyle, ' ', home
+        return family + ' ' + lifestyle + ' ' + home
 
 
 class Backstory():
