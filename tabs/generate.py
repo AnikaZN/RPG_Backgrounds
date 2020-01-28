@@ -31,7 +31,7 @@ layout = html.Div([
         dcc.Dropdown(
             id='background',
             options=[{'label': background, 'value': background} for background in backgrounds],
-            value=backgrounds[0]
+            value="None"
         ),
     ], style=style),
 
@@ -43,8 +43,6 @@ layout = html.Div([
 
     html.Div(id='personality', style={'fontWeight':'bold'}),
 
-    html.Div(id='events', style={'fontWeight':'bold'})
-
 ])
 
 
@@ -52,12 +50,10 @@ layout = html.Div([
     [Output('birthplace', 'children'),
      Output('siblings', 'children'),
      Output('flh', 'children'),
-     Output('personality', 'children'),
-     Output('events', 'children')],
-     [Input('background', 'value'),
-      Input('age', 'value')])
+     Output('personality', 'children')],
+     [Input('background', 'value')])
 
-def backstory(background, age):
+def personality(background, age):
 
     character = Character(background, age)
 
@@ -65,8 +61,7 @@ def backstory(background, age):
     siblings = "SiblIngs: ", character.siblings()
     flh = "Lifestyle: ", character.family_lifestyle_home()
     personality = "Personality: ", character.personality()
-    events = "Life Events: ", character.life_events()
 
-    all = birthplace, siblings, flh, personality, events
+    all = birthplace, siblings, flh, personality
 
     return all
