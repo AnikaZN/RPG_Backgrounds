@@ -55,7 +55,7 @@ layout = html.Div([
 
 def personality(background):
 
-    character = Character(background)
+    character = Personality(background)
 
     birthplace = "Birthplace: ", character.birthplace()
     siblings = "SiblIngs: ", character.siblings()

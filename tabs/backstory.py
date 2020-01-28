@@ -45,7 +45,7 @@ layout = html.Div([
 
 def backstory(age):
 
-    character = Character(age)
+    character = Backstory(age)
 
     events = "Life Events: ", character.life_events()
 
