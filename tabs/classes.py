@@ -333,4 +333,4 @@ class Backstory():
                 result = Core[12], Weird[random.randint(0, 11)]
                 events.append(result)
 
-        return events[0]
+        return events[0], events[1]
