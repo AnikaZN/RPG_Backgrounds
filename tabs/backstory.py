@@ -40,7 +40,7 @@ layout = html.Div([
 
 
 @app.callback(
-    [Output('events', 'children')],
+    Output('events', 'children'),
     [Input('age', 'value')])
 
 def backstory(age):
