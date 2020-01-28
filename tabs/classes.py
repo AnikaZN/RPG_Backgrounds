@@ -294,10 +294,10 @@ class Backstory():
 
         for item in list:
             if 1 <= item <= 10:
-                result = Core[0], Tragedies[random.randint(0, 10)]
+                result = str(Core[0], Tragedies[random.randint(0, 10)])
                 events.append(result)
             elif 11 <= item <= 20:
-                result = Core[1], Boons[random.randint(0, 9)]
+                result = str(Core[1], Boons[random.randint(0, 9)])
                 events.append(result)
             elif 21 <= item <= 30:
                 result = Core[2]
@@ -315,22 +315,22 @@ class Backstory():
                 result = Core[6]
                 events.append(result)
             elif 76 <= item <= 80:
-                result = Core[7], Adventures[random.randint(0, 10)]
+                result = str(Core[7], Adventures[random.randint(0, 10)])
                 events.append(result)
             elif 81 <= item <= 85:
-                result = Core[8], Supernatural[random.randint(0, 14)]
+                result = str(Core[8], Supernatural[random.randint(0, 14)])
                 events.append(result)
             elif 86 <= item <= 90:
-                result = Core[9], War[random.randint(0, 6)]
+                result = str(Core[9], War[random.randint(0, 6)])
                 events.append(result)
             elif 91 <= item <= 95:
-                result = Core[10], Crime[random.randint(0, 7)], Punishment[random.randint(0, 3)]
+                result = str(Core[10], Crime[random.randint(0, 7)], Punishment[random.randint(0, 3)])
                 events.append(result)
             elif 96 <= item <= 99:
-                result = Core[11], Arcane[random.randint(0, 9)]
+                result = str(Core[11], Arcane[random.randint(0, 9)])
                 events.append(result)
             else:
-                result = Core[12], Weird[random.randint(0, 11)]
+                result = str(Core[12], Weird[random.randint(0, 11)])
                 events.append(result)
 
             string_events = ' '.join(events)
