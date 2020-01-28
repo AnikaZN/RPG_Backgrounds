@@ -23,7 +23,7 @@ style = {'padding': '1.5em'}
 layout = html.Div([
     dcc.Markdown("""
         ### Your Character
-        Use the controls below to generate a personality based on your character's background. The rest of your character's backstory will be generated based on their age.
+        Use the controls below to generate a personality based on your character's background.
     """),
 
     html.Div([
@@ -33,18 +33,6 @@ layout = html.Div([
             options=[{'label': background, 'value': background} for background in backgrounds],
             value=backgrounds[0]
         ),
-    ], style=style),
-
-    html.Div([
-        dcc.Markdown('###### Age'),
-        dcc.Slider(
-            id='age',
-            min=0,
-            max=80,
-            step=1,
-            value=30,
-            marks={n: str(n) for n in range(0, 85, 5)}
-        )
     ], style=style),
 
     html.Div(id='birthplace', style={'fontWeight':'bold'}),
@@ -74,7 +62,7 @@ def backstory(background, age):
     character = Character(background, age)
 
     birthplace = "Birthplace: ", character.birthplace()
-    siblings = "Siblngs: ", character.siblings()
+    siblings = "SiblIngs: ", character.siblings()
     flh = "Lifestyle: ", character.family_lifestyle_home()
     personality = "Personality: ", character.personality()
     events = "Life Events: ", character.life_events()
